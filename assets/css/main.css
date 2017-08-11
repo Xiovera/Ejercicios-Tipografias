@@ -1,0 +1,43 @@
+*{
+	/*outline:1px solid red;*/
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-color: red;
+}
+
+.container{
+	padding-left: 30px;
+	padding-right: 7px;
+}
+.caja{
+	padding: 0;
+	margin-top: 50px;
+	width: 245px;
+	height: 300px;
+	float:left;
+	box-shadow: 8px 10px 14px -8px black;
+	text-align: center;
+	background-color: #F5DA81;
+	padding-top: 30px;
+	margin: 5px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	color: #FE2E2E;
+}
+.caja:hover{
+	padding-top: 20px;
+	color:white;
+	background-color: #fff;
+	-webkit-transform: scale(1.1);
+	color:#8C8F98;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+.icono{
+	width: 100px;
+	padding-left: 65px;
+	color: #FE2E2E;
+	font-size: 50px;
+}
